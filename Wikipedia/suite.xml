@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testig-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+	<parameter name="user" value="Admin"></parameter>
+	<parameter name="pass" value="12345"></parameter>
+	<classes>
+	 	<class name="com.globant.Wikipedia.AppTest"/>
+	</classes>
+</suite>
